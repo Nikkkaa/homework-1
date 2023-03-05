@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="title" aria-label="Блок названием">
+        <h1 class="title__text">COMPANY CULTURE</h1>
+
+        <ul class="title__list" aria-label="Лист контактов">
+          <li style="list-style-type: none">
+            <a class="title__contact-list" href="#">
+              <img
+                class="title__contact-img"
+                src="images/svg/logo_inst.svg"
+                alt="Иконка Instargam"
+              />
+            </a>
+          </li>
+
+          <li style="list-style-type: none">
+            <a class="title__contact-list" href="tel:">
+              <img
+                class="title__contact-img"
+                src="images/svg/logo_phone.svg"
+                alt="Иконка телефона"
+            /></a>
+          </li>
+
+          <li style="list-style-type: none">
+            <a class="title__contact-list" href="mailto:">
+              <img
+                class="title__contact-img"
+                src="images/svg/logo_mail.svg"
+                alt="Иконка почты"
+            /></a>
+          </li>
+        </ul>
+      </section>
+
+      <picture class="picture girl-in-a-hat">
+        <source
+          type="image/webp"
+          srcset="
+            images/girl-in-a-hat/girl-in-a-hat.webp    1x,
+            images/girl-in-a-hat/girl-in-a-hat-2x.webp 2x
+          "
+        />
+        <source
+          type="image/avif"
+          srcset="
+            images/girl-in-a-hat/girl-in-a-hat.avif    1x,
+            images/girl-in-a-hat/girl-in-a-hat-2x.avif 2x
+          "
+        />
+        <img
+          class="picture__img"
+          src="images/girl-in-a-hat/girl-in-a-hat.jpg"
+          srcset="images/girl-in-a-hat/girl-in-a-hat-2x.jpg 2x"
+          alt="Девушка в шляпе"
+        />
+      </picture>
+
+      <picture class="picture curly-girl">
+        <source
+          type="image/webp"
+          srcset="
+            images/curly-girl/curly-girl.webp    1x,
+            images/curly-girl/curly-girl-2x.webp 2x
+          "
+        />
+        <source
+          type="image/avif"
+          srcset="
+            images/curly-girl/curly-girl.avif    1x,
+            images/curly-girl/curly-girl-2x.avif 2x
+          "
+        />
+        <img
+          class="picture__img"
+          src="images/curly-girl/curly-girl.jpg"
+          srcset="images/curly-girl/curly-girl-2x.jpg 2x"
+          alt="Кудрявая девушка"
+        />
+      </picture>
+
+      <picture class="picture girl-in-a-dress">
+        <source
+          type="image/webp"
+          srcset="
+            images/girl-in-a-dress/girl-in-a-dress.webp    1x,
+            images/girl-in-a-dress/girl-in-a-dress-2x.webp 2x
+          "
+        />
+        <source
+          type="image/avif"
+          srcset="
+            images/girl-in-a-dress/girl-in-a-dress.avif    1x,
+            images/girl-in-a-dress/girl-in-a-dress-2x.avif 2x
+          "
+        />
+        <img
+          class="picture__img"
+          src="images/girl-in-a-dress/girl-in-a-dress.jpg"
+          srcset="images/girl-in-a-dress/girl-in-a-dress-2x.jpg 2x"
+          alt="Девушка в платье"
+        />
+      </picture>
+
+      <picture class="picture coffee-cup">
+        <source
+          type="image/webp"
+          srcset="
+            images/coffee-cup/coffee-cup.webp    1x,
+            images/coffee-cup/coffee-cup-2x.webp 2x
+          "
+        />
+        <source
+          type="image/avif"
+          srcset="
+            images/coffee-cup/coffee-cup.avif       1x,
+            images/coffee-cup-2x/coffee-cup-2x.avif 2x
+          "
+        />
+        <img
+          class="picture__img"
+          src="images/coffee-cup/coffee-cup.jpg"
+          srcset="images/coffee-cup/coffee-cup-2x.jpg 2x"
+          alt="Крушка кофе"
+        />
+      </picture>
+
+      <picture class="picture doorway">
+        <source
+          type="image/webp"
+          srcset="
+            images/doorway/doorway.webp    1x,
+            images/doorway/doorway-2x.webp 2x
+          "
+        />
+        <source
+          type="image/avif"
+          srcset="
+            images/doorway/doorway.avif    1x,
+            images/doorway/doorway-2x.avif 2x
+          "
+        />
+        <img
+          class="picture__img"
+          src="images/doorway/doorway.jpg"
+          srcset="images/doorway/doorway-2x.jpg 2x"
+          alt="Дверной проход"
+        />
+      </picture>
+
+      <picture class="picture man">
+        <source
+          type="image/webp"
+          srcset="images/man/man.webp 1x, images/man/man-2x.webp 2x"
+        />
+        <source
+          type="image/avif"
+          srcset="images/man/man.avif 1x, images/man/man-2x.avif 2x"
+        />
+        <img
+          class="picture__img"
+          src="images/man/man.jpg"
+          srcset="images/man/man-2x.jpg 2x"
+          alt="Мужчина азиатской внешности"
+        />
+      </picture>
+
+      <div class="title-description" aria-label="Описание">
+        <p class="title-description__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+          ultricies aliquam egestas amet mi aliquam. Eu, vel massa elementum
+          nulla.
+        </p>
+      </div>
+
+      <div class="brown-block"></div>
+
+      <div class="red-block"></div>
+    </main>
+  </body>
+</html>
