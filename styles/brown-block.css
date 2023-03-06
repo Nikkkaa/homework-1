@@ -1,0 +1,24 @@
+.brown-block {
+  grid-area: brown-block;
+  background: #a6806b;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .brown-block {
+    grid-area: brown-block;
+  }
+}
+
+@media (max-width: 762px) {
+  .brown-block {
+    grid-area: brown-block;
+  }
+}
+
+@media (max-width: 320px) {
+  .brown-block {
+    grid-area: brown-block;
+  }
+}

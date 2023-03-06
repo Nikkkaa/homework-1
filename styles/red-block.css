@@ -1,0 +1,22 @@
+.red-block {
+  grid-area: red-block;
+  background: #a61c1c;
+}
+
+@media (max-width: 992px) {
+  .red-block {
+    grid-area: red-block;
+  }
+}
+
+@media (max-width: 762px) {
+  .red-block {
+    grid-area: red-block;
+  }
+}
+
+@media (max-width: 320px) {
+  .red-block {
+    grid-area: red-block;
+  }
+}

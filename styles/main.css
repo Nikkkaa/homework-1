@@ -1,0 +1,57 @@
+.main {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 34% 15% 13% 20% 18%;
+  grid-template-rows: 40% 25% 35%;
+  grid-template-areas:
+    "title girl-in-a-hat girl-in-a-hat curly-girl girl-in-a-dress"
+    "title girl-in-a-hat girl-in-a-hat doorway red-block"
+    "title-description coffee-cup brown-block doorway man";
+}
+
+@media (max-width: 992px) {
+  .main {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60vh 30vh 40vh 60vh 40vh 50vh;
+    grid-template-areas:
+      "title girl-in-a-hat"
+      "title-description title-description"
+      "coffee-cup brown-block"
+      "curly-girl girl-in-a-dress"
+      "doorway red-block"
+      "doorway man";
+  }
+}
+
+@media (max-width: 762px) {
+  .main {
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vh 20vh 100vh 35vh 45vh 35vh 45vh;
+    grid-template-areas:
+      "title title"
+      "title-description title-description"
+      "girl-in-a-hat girl-in-a-hat"
+      "coffee-cup brown-block"
+      "curly-girl girl-in-a-dress"
+      "doorway red-block"
+      "doorway man";
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    grid-template-columns: 100%;
+    grid-template-rows: 35vh 10% 45vh 30vh 5vh 40vh 40vh 50vh 5% 40vh;
+    grid-template-areas:
+      "title"
+      "title-description"
+      "girl-in-a-hat"
+      "coffee-cup"
+      "brown-block"
+      "curly-girl"
+      "girl-in-a-dress"
+      "doorway"
+      "red-block"
+      "man";
+  }
+}
