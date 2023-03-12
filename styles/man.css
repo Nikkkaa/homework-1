@@ -1,0 +1,21 @@
+.man {
+  grid-area: man;
+}
+
+@media (max-width: 992px) {
+  .man {
+    grid-area: man;
+  }
+}
+
+@media (max-width: 762px) {
+  .man {
+    grid-area: man;
+  }
+}
+
+@media (max-width: 320px) {
+  .man {
+    grid-area: man;
+  }
+}

@@ -1,0 +1,21 @@
+.coffee-cup {
+  grid-area: coffee-cup;
+}
+
+@media (max-width: 992px) {
+  .coffee-cup {
+    grid-area: coffee-cup;
+  }
+}
+
+@media (max-width: 762px) {
+  .coffee-cup {
+    grid-area: coffee-cup;
+  }
+}
+
+@media (max-width: 320px) {
+  .coffee-cup {
+    grid-area: coffee-cup;
+  }
+}

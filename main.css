@@ -1,18 +1,13 @@
-@import "reset.css";
 @import url(styles/red-block.css);
 @import url(styles/brown-block.css);
 @import url(styles/picture__img.css);
 @import url(styles/main.css);
 @import url(styles/title.css);
-@import url(styles/img-blocks.css);
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Inter";
-  font-style: normal;
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url(styles/global.css);
+@import url(styles/girl-in-a-hat.css);
+@import url(styles/curly-girl.css);
+@import url(styles/girl-in-a-dress.css);
+@import url(styles/coffee-cup.css);
+@import url(styles/doorway.css);
+@import url(styles/man.css);

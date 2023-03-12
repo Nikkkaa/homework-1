@@ -1,0 +1,21 @@
+.curly-girl {
+  grid-area: curly-girl;
+}
+
+@media (max-width: 992px) {
+  .curly-girl {
+    grid-area: curly-girl;
+  }
+}
+
+@media (max-width: 762px) {
+  .curly-girl {
+    grid-area: curly-girl;
+  }
+}
+
+@media (max-width: 320px) {
+  .curly-girl {
+    grid-area: curly-girl;
+  }
+}

@@ -1,0 +1,21 @@
+.doorway {
+  grid-area: doorway;
+}
+
+@media (max-width: 992px) {
+  .doorway {
+    grid-area: doorway;
+  }
+}
+
+@media (max-width: 762px) {
+  .doorway {
+    grid-area: doorway;
+  }
+}
+
+@media (max-width: 320px) {
+  .doorway {
+    grid-area: doorway;
+  }
+}
